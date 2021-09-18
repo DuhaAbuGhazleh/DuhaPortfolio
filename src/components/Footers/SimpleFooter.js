@@ -48,7 +48,7 @@ class SimpleFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
-                  href="https://twitter.com/creativetim"
+                  href="https://twitter.com/lookathebigpic?t=yJdsFvG1CePggRPa83oDow&s=09"
                   id="tooltip475038074"
                   target="_blank"
                 >
@@ -59,7 +59,7 @@ class SimpleFooter extends React.Component {
                 <UncontrolledTooltip delay={0} target="tooltip475038074">
                   Follow us
                 </UncontrolledTooltip>
-                <Button
+                {/* <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
                   href="https://www.facebook.com/creativetim"
@@ -72,8 +72,8 @@ class SimpleFooter extends React.Component {
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
                   Like us
-                </UncontrolledTooltip>
-                <Button
+                </UncontrolledTooltip> */}
+                {/* <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="dribbble"
                   href="https://dribbble.com/creativetim"
@@ -86,11 +86,11 @@ class SimpleFooter extends React.Component {
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip829810202">
                   Follow us
-                </UncontrolledTooltip>
+                </UncontrolledTooltip> */}
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/DuhaAbuGhazleh"
                   id="tooltip495507257"
                   target="_blank"
                 >
@@ -107,18 +107,18 @@ class SimpleFooter extends React.Component {
             <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
                 <div className=" copyright">
-                  © {new Date().getFullYear()}{" "}
-                  <a
+                  © Duha Abu-Ghazleh {new Date().getFullYear()}{" "}
+                  {/* <a
                     href="https://www.creative-tim.com?ref=adsr-footer"
                     target="_blank"
                   >
                     Creative Tim
-                  </a>
+                  </a> */}
                   .
                 </div>
               </Col>
               <Col md="6">
-                <Nav className=" nav-footer justify-content-end">
+                {/* <Nav className=" nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
                       href="https://www.creative-tim.com?ref=adsr-footer"
@@ -151,7 +151,7 @@ class SimpleFooter extends React.Component {
                       MIT License
                     </NavLink>
                   </NavItem>
-                </Nav>
+                </Nav> */}
               </Col>
             </Row>
           </Container>
