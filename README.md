@@ -1,6 +1,6 @@
 # Duha Abu Ghazleh 
 ## Portfolio
-- https://wonderful-aryabhata-135704.netlify.app/
+- [Duha-PORTFOILO](https://duha-abughazleh-portfoilo.netlify.app/)
 
 
 Number and name of feature: #1
